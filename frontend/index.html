@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | TaskFlow</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="./app.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .cor-primaria {
+        color: #e44452;
+      }
+      .bg-primaria {
+        background-color: #e44452;
+      }
+      .bg-fundo {
+        background-color: #1f2234;
+      }
+    </style>
+  </head>
+  <body class="font-[Poppins] bg-fundo min-h-screen flex flex-col">
+    <header class="text-white font-semibold">
+      <div class="flex justify-between p-4 lg:px-40">
+        <div>
+          <a href="#" class="cor-primaria text-lg md:text-xl font-extrabold"
+            >TASKFLOW</a
+          >
+        </div>
+        <nav class="flex gap-8 text-sm md:text-base">
+          <a href="#">CONTATO</a>
+          <a href="#">LOGIN</a>
+        </nav>
+      </div>
+    </header>
+    
+    <main class="flex-1 flex justify-center items-center lg:px-40 text-center">
+      <div class="p-4">
+        <h1
+          class="animate-scroll cor-primaria font-extrabold text-5xl md:text-6xl opacity-0"
+        >
+          TASKFLOW
+        </h1>
+        <p
+          class="text-white mt-4 text-base md:text-lg max-w-lg mx-auto animate-scroll opacity-0" data-delay="0.2"
+        >
+          Gerencie suas tarefas de forma prática, rápida e minimalista.
+        </p>
+        <button
+          class="mt-6 bg-primaria text-white px-6 py-2 rounded-lg font-semibold animate-scroll opacity-0"  data-delay="0.4"
+        >
+          Começar
+        </button>
+      </div>
+    </main>
+    
+  </body>
+</html>

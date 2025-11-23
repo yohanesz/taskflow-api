@@ -1,0 +1,20 @@
+{
+    "name": "dev/taskflow-api",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Dev\\TaskflowApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yohanês",
+            "email": "yzanghelini@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "firebase/php-jwt": "^6.11",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
